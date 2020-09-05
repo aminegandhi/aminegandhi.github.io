@@ -1,0 +1,79 @@
+body {
+    background: #ccc;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 1.62em;
+    margin-top: 5em;
+    padding-top: 0 !important;
+}
+
+#wrapper {
+    position: relative;
+    max-width: 760px;
+    margin: 0 auto;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .4);
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+#header {
+    border-top: #111 3px solid;
+}
+
+#site-title {
+    margin: 0 3.4%;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    float: left;
+    line-height: 150px;
+}
+
+#site-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+#container {
+    margin: 2.4%;
+}
+
+.entry {
+    margin: 2.5%;
+    padding: 20px;
+}
+
+.entry header.entry-header h1 {
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.entry div.entry-content {
+    font-size: 15px;
+    line-height: 1.62em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    line-height: 1.62em;
+    letter-spacing: 1px;
+}
+
+#copyright {
+    clear: both;
+    padding: 1.4% 3.2%;
+    background: #111;
+    border-top: #333 1px solid;
+    color: #CCC;
+    font-weight: 300;
+}
+
+#copyright p {
+    margin: 0;
+}
